@@ -27,5 +27,58 @@
 //     console.log(arr[a]);
 // }
 
-const app = require('./app.js');
-console.log(app);
+// const app = require('./app.js');
+// console.log(app);
+
+// let firstname="Dhruv";
+// let lastname="Sharma";
+// console.log(firstname," ",lastname);
+
+// var a=2;
+// var b=3;
+// if(a>b){
+//     console.log("A is greater than B");
+// }else{
+//     console.log("B is greater than A");
+// }
+
+// function abes(){
+//     console.log("Welcoe Students");
+//     console.log("Welcome to Node.js");
+
+// }
+// abes();
+
+
+// function greet(fname,lname){
+//     console.log("Hello",fname,lname);
+// }
+// greet("Dhruv","Sharma");
+// greet("Akshit","Satti");
+
+// function sum( a, b){
+// console.log("sum:",a+b)
+// }
+// var result=sum(2,3);
+// console.log(result);
+
+
+// function fname(finame="ABES",laname="Engineering college"){
+//     console.log(finame,"",laname);
+// }
+
+// fname();
+// fname("IIT","Delhi");
+
+// function marks(maths,englih,hindi){
+//     return maths+englih+hindi;
+// }
+
+// function percentage(total){
+//     return total/3;
+// }
+
+// let total=marks(90,90,90);
+// console.log("Total marks",total);
+// console.log("Percentage",percentage(total));
+
