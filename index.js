@@ -82,3 +82,64 @@
 // console.log("Total marks",total);
 // console.log("Percentage",percentage(total));
 
+// let a=2;
+// if(a%2==0){
+//     console.log("No is even");
+// }else{
+//     console.log("No is odd");
+// }
+
+// const student={
+//     name:"Dhruv",
+//     rollno:25,
+//     branch:"A.I.M.L",
+//     marks:25,
+// }
+// console.log(student);
+
+// function percentage(eng,maths,hindi){
+//     console.log((eng+maths+hindi)/3);
+// }
+// // percentage(22,55,33);
+// percentage(90,90,90);
+
+
+// let arr=[1,2,3,4,5];
+// let  sum=0;
+// for(let i=0;i<5;i++){
+//     sum=sum+arr[i];
+//     console.log(arr[i]);
+// }
+// console.log("Sum of array=",sum);
+
+
+// let srr=[["Dhruv","Keshav","Bhaskar"],["Akshat","Akshit","Female"]];
+// console.log(srr);
+
+// const student={
+//     name:"Dhruv",
+//     rollno:25,
+//     branch:"A.I.M.L",
+//     marks:25,
+// }
+// console.log(student);
+
+// let user=[{
+//     name:"Dhruv",
+//     branch:"A.I.M.L",
+// },
+// {
+//     name:"Keshav",
+//     branch:"A.I.M.L",
+// }]
+// console.log(user);
+
+const data={
+    name:"Dhruv Sharma",
+    Branch:"Aiml",
+    rollno:25,
+}
+console.log(data);
+data.rollno+=25;
+delete data.name;
+console.log(data);
