@@ -134,12 +134,55 @@
 // }]
 // console.log(user);
 
-const data={
-    name:"Dhruv Sharma",
-    Branch:"Aiml",
-    rollno:25,
-}
-console.log(data);
-data.rollno+=25;
-delete data.name;
-console.log(data);
+// const data={
+//     name:"Dhruv Sharma",
+//     Branch:"Aiml",
+//     rollno:25,
+// }
+// console.log(data);
+// data.rollno+=25;
+// delete data.name;
+// console.log(data);
+
+
+//                 String
+// let name="Dhruv";
+// console.log(name);
+// console.log("Sting length:",name.length);
+// console.log("Upper case:",name.toUpperCase());
+// console.log("Lower case",name.toLowerCase());
+// console.log(name.charAt(4));
+// let message="JavaScript is this ";
+// console.log(message.lastIndexOf("this"));
+// console.log(message.slice(1,5));
+// // console.log(message.splice(1,2,"tp"));
+// let data="html,css,js";
+// console.log(data.split(","));
+// console.log(data);
+// let text="Dhruv Sharma";
+// console.log(text.replace("Dhruv","Keshav"))
+// let first="Akshat";
+// let last="Sinah";
+// console.log(first.concat(" ",last));
+// console.log(first.includes("ksh"));
+// let arr=[1,2,3,4];
+// console.log(arr);
+// arr.push(5);
+// console.log(arr);
+// arr.pop();
+// console.log(arr);
+// arr.shift();
+// console.log(arr);
+// arr.unshift(5);
+// console.log(arr);
+// let date=new Date();
+// console.log(date);
+// console.log(date.getFullYear());
+// console.log(date.getMonth()+1);
+
+
+//                                    *====Maths====*
+console.log("Maximum:", Math.max(10, 20, 30, 40));
+console.log("Minimum:",Math.min(10,20,23));
+console.log(Math.pow(2,4));
+console.log(Math.floor(4.2));
