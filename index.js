@@ -179,10 +179,91 @@
 // console.log(date);
 // console.log(date.getFullYear());
 // console.log(date.getMonth()+1);
+       
 
 
 //                                    *====Maths====*
-console.log("Maximum:", Math.max(10, 20, 30, 40));
-console.log("Minimum:",Math.min(10,20,23));
-console.log(Math.pow(2,4));
-console.log(Math.floor(4.2));
+// console.log("Maximum:", Math.max(10, 20, 30, 40));
+// console.log("Minimum:",Math.min(10,20,23));
+// console.log(Math.pow(2,4));
+// console.log(Math.floor(4.2));
+
+
+// const obj={
+//     name:"Dhruv Sharma",
+//     age:18
+// }
+
+// console.log(obj.name)
+
+//                                                Object
+
+// const obj={
+//     name:"Dhruv Sharma",
+//     age:18,
+//     objf(){
+// console.log(this.name);
+// console.log(this.age);
+//     }
+// }
+
+// console.log(obj.objf());
+
+
+
+// const onj={
+//  salary:25000,
+// creadit_score:400,
+// update(){
+//     this.salary=this.salary+5000;
+//     console.log(this.salary);
+//     this.creadit_score=this.creadit_score+200;
+//     console.log(this.creadit_score);
+// }
+// }
+// console.log(onj.update());
+
+
+
+
+// function show(){
+//     console.log(this.adress);
+//     console.log(this.city);
+// }
+
+// const obj={
+//     adress:"Nand Nagri Modinagar",
+//     city:"Modinagar",
+//  show:show
+// }
+
+
+// const obj1={
+//     adress:"Nand Nagri",
+//     city:"Govindpuri",
+//  show:show
+// }
+// obj.show();
+
+
+
+
+function clg(){
+    console.log(this.name);
+    console.log(this.id);
+}
+
+const Department={
+  name:"Dhruv Sharma",
+    id:52,
+    clg:clg
+}
+const clas={
+    name:"Keshav Sharma",
+    id:522,
+        clg:clg
+
+}
+
+clas.clg();
+Department.clg();
